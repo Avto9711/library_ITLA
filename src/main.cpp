@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : Library.cpp
-// Author      : 
+// Author      :
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
@@ -15,5 +15,5 @@ int main()
 {
 	Menu menu;
 	menu.show();
-	return EXIT_SUCCESS;
+	return 0;
 }

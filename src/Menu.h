@@ -7,9 +7,20 @@
 
 #ifndef MENU_H_
 #define MENU_H_
+#include "Stack.h"
 
 class Menu
 {
+	private:
+		void clearScreen();
+		void listBooks();
+		void addBook();
+		void getLast();
+		void getByCategory();
+		bool validate(int option);
+		void routeAction(int option);
+		void pause();
+
 	public:
 		void show();
 		Menu();
